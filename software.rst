@@ -4,4 +4,4 @@ Recording software
 ==========================
 
 
-We use `_baslerpi` to record the images
+We use `baslerpi`_ to record the images

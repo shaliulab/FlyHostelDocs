@@ -11,6 +11,7 @@ Welcome to FlyHostelDocs's documentation!
    :caption: Contents:
 
    cameras
+   software
 
 
 
