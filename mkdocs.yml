@@ -2,7 +2,7 @@ site_name: FlyHostel
 site_url: https://github.com/shaliulab/FlyHostel4
 nav:
     - Home: index.md
-    - Cameras: cameras.md
+    - Camera: camera.md
     - Software: software.md
     - About: about.md
 theme: readthedocs
