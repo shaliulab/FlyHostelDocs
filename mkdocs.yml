@@ -4,7 +4,7 @@ repo_url: https://github.com/shaliulab/FlyHostel4
 nav:
     - Home: index.md
     - Camera: camera.md
-    - Software: software.md
+    - Idtrackerai: idtrackerai.md
     - About: about.md
 theme: readthedocs
 

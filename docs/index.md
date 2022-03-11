@@ -1,6 +1,4 @@
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Welcome to FlyHostel
 
 ## Commands
 
@@ -14,5 +12,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        camera.md # Documentation on camera related hardware
+        idtrackerai.md # Documentation on idtrackerai
 
+
+FlyHostel is an ongoing project in the Liu Lab at VIB-KU Leuven Center for Brain & Disease Research
