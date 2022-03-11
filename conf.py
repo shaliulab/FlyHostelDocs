@@ -59,3 +59,5 @@ html_static_path = ['_static']
 #}
 #source_suffix = ['.md']
 extensions = ["myst_parser"]
+master_doc = 'index'
+
