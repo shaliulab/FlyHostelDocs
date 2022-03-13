@@ -1,13 +1,11 @@
 Camera
 =======================
 
-
 ## Hardware
 
 We use the USB-3 Basler camera a2a3840-45umPRO to generate the recordings.
     
 ## Software
-
 
 We use [baslerpi](https://github.com/shaliulab/baslerpi) to interact with the cameras and `ffmpeg` to save the video data in a memory efficient format.
 
