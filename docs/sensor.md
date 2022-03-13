@@ -117,12 +117,12 @@ These data are saved in .json files stored in the same folder as the video files
 
 ### Hardware
 
-    1. [BME280 sensor](https://www.adafruit.com/product/2652) (temperature and humidity)
-    2. [Photoresistor](https://create.arduino.cc/projecthub/MisterBotBreak/how-to-use-a-photoresistor-46c5eb) (light)
-    3. 10KOhm resistor
-    4. Breadboard
-    5. Arduino Uno
-    6. RaspberryPi
+1. [BME280 sensor](https://www.adafruit.com/product/2652) (temperature and humidity)
+2. [Photoresistor](https://create.arduino.cc/projecthub/MisterBotBreak/how-to-use-a-photoresistor-46c5eb) (light)
+3. 10KOhm resistor
+4. Breadboard
+5. Arduino Uno
+6. RaspberryPi
 
 NOTE. A BMP280 sensor exists which does not measure humidity.
 
