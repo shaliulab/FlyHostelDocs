@@ -7,6 +7,8 @@ nav:
     - Sensor: sensor.md
     - Incubator: incubator.md
     - Idtrackerai: idtrackerai.md
+    - Backup: backup.md
+    - Quantification: quantification.md
     - About: about.md
 theme: readthedocs
 
