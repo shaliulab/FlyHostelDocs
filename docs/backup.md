@@ -33,7 +33,7 @@ In order to manually UPload a folder in the local computer to Dropbox
 
 ```
 # upload the desired folder to Dropbox
-> dropy /Users/Data/flyhostel_data/videos/EXPERIMENT_FOLDER/idtrackerai/./session_XXXXXX Dropbox:/Data/flyhostel_data/videos/EXPERIMENT_FOLDER/idtrackerai/
+> dropy /Users/Data/flyhostel_data/videos/${EXPERIMENT_FOLDER}/idtrackerai/./session_${SESSION} Dropbox:/Data/flyhostel_data/videos/${EXPERIMENT_FOLDER}/idtrackerai/
 ```
 
 ```
@@ -43,8 +43,8 @@ END=200
 
 for SESSION in $(seq -f "%06g" START END);
 do
-    SRC="/Users/Data/flyhostel_data/videos/EXPERIMENT_FOLDER/idtrackerai/./session_${SESSION}"
-    DEST="Dropbox:/Data/flyhostel_data/videos/EXPERIMENT_FOLDER/idtrackerai/" # ending in / is essential
+    SRC="/Users/Data/flyhostel_data/videos/${EXPERIMENT_FOLDER}/idtrackerai/./session_${SESSION}"
+    DEST="Dropbox:/Data/flyhostel_data/videos/${EXPERIMENT_FOLDER}/idtrackerai/" # ending in / is essential
     echo "Copying ${SRC} -> ${DEST}" 
     dropy ${SRC} ${DEST};
 done
