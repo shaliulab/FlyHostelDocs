@@ -11,6 +11,7 @@ In order to send video data to another system, we use rsync. See [idtrackerai](i
 In order to exchange files between Dropbox and a computer (both ways) using a CLI, we use [dropy](https://github.com/shaliulab/dropy)
 
 The last validated hash of the dropy project:
+
 ```
 6fc78004c9186fc3a667065e08943d93f6fe71bc
 ```
@@ -23,7 +24,7 @@ In order to manually UPload a folder in the local computer to Dropbox
 > cat /etc/dropy.conf
 {"token": "sl.BCDNydSVaN4vv0xGnfO2P8_uwcRSIAiYkbkwsgwd1VRce_zB1j2CaLFSwRUKyT6fgvkmsYQVWC6Z-5aFNRx_ftbMV2ncqOPNB2o1g83J3JxYTWubVwTzrY0BWlXBv39_k9dr4J2t"}
 
-````
+```
 
 ```
 # start the CLI version of Dropbox (if dropy-init has not been run yet)
