@@ -59,8 +59,9 @@ https://github.com/justanhduc/task-spooler/releases/tag/v1.3.0
 # rsync
 ```
 # from the videos folder
-rsync -arvz  -R --include "*/" --include "metadata.yaml" --include "*conf" --exclude "*" ./EXPERIMENT_FOLDER/ cv1:/Users/Data/flyhostel_data/videos/
-rsync -arvz  -R --include "*/" --include "*mp4" --include "*npz" --include "*json" --include "*png"  --exclude "*" ./EXPERIMENT_FOLDER/ cv1:/Users/Data/flyhostel_data/videos/
+REMOTE_FOLDER="/media/vibflysleep/Elements1/Users/Antonio/flyhostel_data/videos"
+EXPERIMENT_FOLDER="2022-04-07_15-23-07"
+rsync -arvz  -R --include "*/" --include "metadata.yaml" --include "*.conf" --include "*.npz" --include "*.json" --include "*.mp4" --include "*.png" --exclude "*" ./${EXPERIMENT_FOLDER}/ cv1:${REMOTE_FOLDER}
 ```
 # Analyse trajectories
 
