@@ -4,6 +4,12 @@ To add examples to the FlyFinder dataset:
 ### Find imperfect frames
 
 Choose a good collection of "imperfect" frames. These are frames that idtrackerai has flagged as problematic and are saved in `basedir/idtrackerai/imperfect` in the VSC
+Make sure an index of the labels is available:
+
+```
+cd basedir/idtrackerai/imperfect/yolov7/labels
+find . -type f > index.txt
+```
 
 ### Download from VSC
 
