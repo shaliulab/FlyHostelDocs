@@ -3,6 +3,7 @@ site_url: https://flyhosteldocs.readthedocs.io/en/latest/
 repo_url: https://github.com/shaliulab/FlyHostel4
 nav:
     - Home: index.md
+    - Protocol: protocol.md
     - Camera: camera.md
     - Sensor: sensor.md
     - Incubator: incubator.md
